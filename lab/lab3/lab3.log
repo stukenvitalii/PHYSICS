@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.28)  30 NOV 2022 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.28)  1 DEC 2022 11:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -374,30 +374,26 @@ Package: wrapfig 2003/01/31  v 3.6
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box55
-) (lab3.aux
-
-LaTeX Warning: Label `ris:image' multiply defined.
-
-)
+) (lab3.aux)
 \openout1 = `lab3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Info: Redefining \th on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Info: Redefining \th on input line 14.
  (D:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count277
@@ -433,11 +429,11 @@ Package: ragged2e 2022/11/13 v3.2 ragged2e Package
 \RaggedRightParindent=\skip64
 \JustifyingParindent=\skip65
 )<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
  (D:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
  (D:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -446,278 +442,278 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <ustanovka.jpg, id=14, 134.30174pt x 187.29974pt>
 File: ustanovka.jpg Graphic file (type jpg)
 <use ustanovka.jpg>
-Package pdftex.def Info: ustanovka.jpg  used on input line 48.
+Package pdftex.def Info: ustanovka.jpg  used on input line 50.
 (pdftex.def)             Requested size: 77.99881pt x 108.77966pt.
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:53: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:55: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 ...�ристик колебательной
+l.55 ...�ристик колебательной
                                                    системы с зат�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:53: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:55: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 ...�тности колебательной
+l.55 ...�тности колебательной
                                                    системы).
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 Применяемый
+l.59 Применяемый
                               в работе крутильный мая�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ...�̆ в работе крутильный
+l.59 ...�̆ в работе крутильный
                                                    маятник предс...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ...ик представляет собой
+l.59 ...ик представляет собой
                                                    диск 1, закреп�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ...� диск 1, закреплен- ный
+l.59 ...� диск 1, закреплен- ный
                                                    на упругой с�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ...еплен- ный на упругой
+l.59 ...еплен- ный на упругой
                                                    стальной про...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ...� на упругой стальной
+l.59 ...� на упругой стальной
                                                    проволоке 2, с�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ...проволоке 2, свободный
+l.59 ...проволоке 2, свободный
                                                    конец которои...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ...бодный конец которой
+l.59 ...бодный конец которой
                                                    зажат в непод�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ... неподвижном кронштей
+l.59 ... неподвижном кронштей
                                                   не 3. На кроншт�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ...�штейне 3. На кронштей
+l.59 ...�штейне 3. На кронштей
                                                   не расположен�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:57: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:59: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 .... Для отсчета значений
+l.59 .... Для отсчета значений
                                                    угла
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:66: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:68: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...�рции (аналог инертной
+l.68 ...�рции (аналог инертной
                                                    массы тела пр�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:67: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:69: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 ...изующая инертные свой
+l.69 ...изующая инертные свой
                                                   ства твердого ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:69: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:71: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 ...ся вокруг неподвижной
+l.71 ...ся вокруг неподвижной
                                                    оси, то момент...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:69: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:71: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 ...ции относительно этой
+l.71 ...ции относительно этой
                                                    оси вычисляет...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:69: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:71: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 ...ак сумма произведений
+l.71 ...ак сумма произведений
                                                    элементарных ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:69: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:71: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 ...вадраты их расстояний
+l.71 ...вадраты их расстояний
                                                    $r_i$ до оси вра�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:71: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:73: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...�круг оси, совпадающей
+l.73 ...�круг оси, совпадающей
                                                    с направление...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:71: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:73: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...�аправлением стальной
+l.73 ...�аправлением стальной
                                                    проволоки. Ис�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -726,180 +722,154 @@ You may provide a definition with
 <graph.jpg, id=25, 234.8775pt x 196.93575pt>
 File: graph.jpg Graphic file (type jpg)
 <use graph.jpg>
-Package pdftex.def Info: graph.jpg  used on input line 77.
+Package pdftex.def Info: graph.jpg  used on input line 79.
 (pdftex.def)             Requested size: 117.00119pt x 98.101pt.
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:81: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:83: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 ...а возникает вращающий
+l.83 ...а возникает вращающий
                                                    момент упруги...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:82: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:84: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82 ...се создает тормозящий
+l.84 ...се создает тормозящий
                                                    момент, пропо�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:82: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:84: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82 ...ент, пропорциональный
+l.84 ...ент, пропорциональный
                                                    скорости движ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:83: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:85: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 Исследуемый
+l.85 Исследуемый
                               в работе крутильный мая�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:83: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:85: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...�̆ в работе крутильный
+l.85 ...�̆ в работе крутильный
                                                    маятник предс...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:83: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:85: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...ик представляет собой
+l.85 ...ик представляет собой
                                                    сложную систе...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:83: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:85: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...ениями, прикрепленный
+l.85 ...ениями, прикрепленный
                                                    к проволочном...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:84: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:86: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 который
+l.86 который
                       представляет собой постоянн...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:84: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:86: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 ...й представляет собой
+l.86 ...й представляет собой
                                                    постоянную ча...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:84: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:86: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 ...ную часть исследуемой
+l.86 ...ную часть исследуемой
                                                    системы. Если ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 81--85
+Underfull \hbox (badness 2119) in paragraph at lines 83--87
 []\T2A/cmr/m/n/12 ��� ��-��-��-�� ��-��, ��-����-���-��-�� ��
  []
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:88: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:90: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 ...ная энергия колебаний
+l.90 ...ная энергия колебаний
                                                    маятника убыв...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:92: LaTeX Error: Unicode character ̆ (U+0306)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 позволяющей
-                              судить о способности сис�...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:93: LaTeX Error: Unicode character ̆ (U+0306)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 ...равна числу колебаний
-                                                   за время $t = \tau...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -911,8 +881,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 ...я амплитуда колебаний
-                                                   уменьшается в...
+l.94 позволяющей
+                              судить о способности сис�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -924,33 +894,59 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 а энергия колебаний
+l.95 ...равна числу колебаний
+                                                   за время $t = \tau...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:96: LaTeX Error: Unicode character ̆ (U+0306)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...я амплитуда колебаний
+                                                   уменьшается в...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:97: LaTeX Error: Unicode character ̆ (U+0306)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 а энергия колебаний
                                             в $e^{2\pi} \approx 535$ раз...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:96: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:98: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 ...tau}{T}$ - число колебаний
+l.98 ...tau}{T}$ - число колебаний
                                                   , за которое ам...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:96: LaTeX Error: Unicode character ̆ (U+0306)
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:98: LaTeX Error: Unicode character ̆ (U+0306)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 ...е амплитуда колебаний
+l.98 ...е амплитуда колебаний
                                                    уменьшается в...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -959,73 +955,8 @@ You may provide a definition with
 <sdvig.jpg, id=31, 220.4235pt x 131.2905pt>
 File: sdvig.jpg Graphic file (type jpg)
 <use sdvig.jpg>
-Package pdftex.def Info: sdvig.jpg  used on input line 102.
+Package pdftex.def Info: sdvig.jpg  used on input line 104.
 (pdftex.def)             Requested size: 117.00119pt x 69.68779pt.
-
-
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:106: LaTeX Error: Unicode character ̆ (U+0306)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 ...крутильных колебаний
-                                                   пользуются дл...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:107: LaTeX Error: Unicode character ̆ (U+0306)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 ...�еризует упругие свой
-                                                  ства материал�...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:107: LaTeX Error: Unicode character ̆ (U+0306)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 ...�чае малых деформаций
-                                                   равен силе, де...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:107: LaTeX Error: Unicode character ̆ (U+0306)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 ...�аций равен силе, дей
-                                                  ствующей на е...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:107: LaTeX Error: Unicode character ̆ (U+0306)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 ...ен силе, действующей
-                                                   на единицу пл�...
-You may provide a definition with
-\DeclareUnicodeCharacter 
 
 
 d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:108: LaTeX Error: Unicode character ̆ (U+0306)
@@ -1035,28 +966,93 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 ...ольной относительной
+l.108 ...крутильных колебаний
+                                                   пользуются дл...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:109: LaTeX Error: Unicode character ̆ (U+0306)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...�еризует упругие свой
+                                                  ства материал�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:109: LaTeX Error: Unicode character ̆ (U+0306)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...�чае малых деформаций
+                                                   равен силе, де...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:109: LaTeX Error: Unicode character ̆ (U+0306)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...�аций равен силе, дей
+                                                  ствующей на е...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:109: LaTeX Error: Unicode character ̆ (U+0306)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...ен силе, действующей
+                                                   на единицу пл�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:110: LaTeX Error: Unicode character ̆ (U+0306)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...ольной относительной
                                                    деформации об...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [3 <./sdvig.jpg>]
-Overfull \hbox (65.25748pt too wide) in paragraph at lines 116--125
+Overfull \hbox (65.25748pt too wide) in paragraph at lines 118--127
 []  
  []
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:143: Missing $ inserted.
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:145: Missing $ inserted.
 <inserted text> 
                 $
-l.143 }
+l.145 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:143: Extra }, or forgotten $.
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:145: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.143 }
+l.145 }
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1064,18 +1060,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:143: Missing $ inserted.
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:145: Missing $ inserted.
 <inserted text> 
                 $
-l.143 }
+l.145 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:143: Missing } inserted.
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:145: Missing } inserted.
 <inserted text> 
                 }
-l.143 }
+l.145 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1083,18 +1079,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:143: Missing $ inserted.
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:145: Missing $ inserted.
 <inserted text> 
                 $
-l.143 }
+l.145 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:143: Extra }, or forgotten $.
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:145: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.143 }
+l.145 }
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1102,18 +1098,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:143: Missing $ inserted.
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:145: Missing $ inserted.
 <inserted text> 
                 $
-l.143 }
+l.145 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:143: Missing } inserted.
+d:/tanki/University/PHYSICS/lab/lab3/lab3.tex:145: Missing } inserted.
 <inserted text> 
                 }
-l.143 }
+l.145 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1122,52 +1118,67 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-[7] [8] [9] (lab3.aux)
+[7] [8] [9] [10]
+<yotx.ru (4).png, id=66, 472.01344pt x 474.27188pt>
+File: yotx.ru (4).png Graphic file (type png)
+<use yotx.ru (4).png>
+Package pdftex.def Info: yotx.ru (4).png  used on input line 317.
+(pdftex.def)             Requested size: 472.01228pt x 474.27072pt.
+<yotx.ru (5).png, id=68, 472.01344pt x 474.27188pt>
+File: yotx.ru (5).png Graphic file (type png)
+<use yotx.ru (5).png>
+Package pdftex.def Info: yotx.ru (5).png  used on input line 324.
+(pdftex.def)             Requested size: 472.01228pt x 474.27072pt.
 
-LaTeX Warning: There were multiply-defined labels.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./yotx.ru (4).png>] [12 <./yotx.ru (5).png>] (lab3.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5017 strings out of 475284
- 77040 string characters out of 2783919
- 426805 words of memory out of 3000000
- 26386 multiletter control sequences out of 15000+600000
+ 5034 strings out of 475284
+ 77344 string characters out of 2783919
+ 426750 words of memory out of 3000000
+ 26400 multiletter control sequences out of 15000+600000
  485059 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,62p,718b,269s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2488.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on lab3.pdf (10 pages, 268258 bytes).
+ <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2488.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on lab3.pdf (13 pages, 384431 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
+ 425 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

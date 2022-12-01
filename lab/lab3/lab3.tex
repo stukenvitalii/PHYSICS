@@ -8,6 +8,8 @@
 \usepackage{graphicx}
 \usepackage{sidecap}
 \usepackage{wrapfig}
+% \usepackage{pgfplots} 
+% \pgfplotsset{compat = 1.18,width = 15cm}
 
 \begin{document} 
 
@@ -155,11 +157,12 @@
          \[ I_d = \frac{I_k}{(\frac{T_{dk}}{T_d})^2-1} \]
          \[ \omega_0 = \frac{2\pi}{T} = \sqrt{\frac{D}{I_{d}}} \]
          Отсюда:
-         \[ T = 2\pi\sqrt{\frac{D}{I_d}} \]
-
+         \[ T_d = 2\pi\sqrt{\frac{I_d}{D}} \]
+         \[ T = 2\pi \sqrt{(I_d + I_k)/D} \]
+         Отсюда:
+         \[ I_d = \frac{I_k}{(\frac{T_{dk}}{T_d})^2-1} \]
+        
 \end{itemize}
-%! Дописать ответы на вопросы
-
 
 \newpage
 
@@ -283,6 +286,56 @@ $N=5,\ \ U_{PN}=0.64,\ \ V_{PN}=1.67,\ \ \beta_{PN}=0.51,\ \ t_{PN}=2.8$\\
 \[ \frac{dI_d}{d\omega_{0k}}\bigg \vert_{\bar{\omega_{0d}},\bar{\omega_{0k}}} = 1.42 \]
 
 \[ I_d = \Delta I_d \pm \Delta \bar{I_d} = 0.015 \pm 0.004 \, kg\cdot m^2\]
+
+
+\subsection*{Найдем момент инерции диска маятника, исходя из его равзмеров и плотности материала}
+
+\[ I_d = \frac{mR^2}{2} = \frac{1}{2}\cdot (1.18 \cdot 0.1234^2) = 0.01 \, kg \cdot m^2\]
+Сравним полученный результат с экспериментальным значением:
+\[ 0.015c\pm 0.004 \approx 0.01 \, kg\cdot m^2\]
+
+\subsection*{Найдем коэффициент кручения и значения модуля сдвига G и модуля Юнга E материала подвеса маятника}
+
+\[ k = \omega_{0d}^2I_d  = 4^2 \cdot 0.015 = 0.24 \, J\]
+\[ G = \frac{32kl}{\pi d^4} = \frac{32 \cdot 0.24 \cdot 0.632}{3.14 \cdot 0.247^4} = 415 \, Pa \]
+\[ E = 2G(1 + \nu) = 2\cdot 415 (1+0.3) = 1079 \, Pa \]
+
+\subsection*{Найдем начальное значение полной энергии $W_0$, мощность потерь $P_d$ и добротность маятника $Q$}
+
+\[ W_0 = \frac{kA_0^2}{2} \approx \frac{0.24\cdot 0.523^2}{2}  = 0.033\, J\]
+
+\[ P_d = \frac{2w(t)}{\tau} = 2 \frac{W_0e^{-\frac{2t_{0d}}{\tau_d}}}{\tau_d} = 2\frac{0.033\cdot e^{-\frac{2\cdot 19.526}{28.18}}}{28.18} = 5.86\cdot 10^{-4} \, Wt\]
+\[ Q = \pi \frac{\tau}{T} = 56.36 \]
+
+
+\newpage
+\subsection*{Построим графики зависимости функций}
+
+
+\begin{figure}[h]%current location
+	\centering
+	\scalebox{0.8}{\includegraphics{yotx.ru (4).png}}
+	\caption{$\varphi(t) = A_0e^{-\frac{t}{\tau}}\cos \omega t$}
+	\label{framework1} %framework,fig1
+\end{figure}
+
+\begin{figure}[h]%current location
+	\centering
+	\scalebox{0.8}{\includegraphics{yotx.ru (5).png}}
+	\caption{$A(t) = A_0e^{-\frac{t}{\tau}}$}
+	\label{framework2} %framework,fig1
+\end{figure}
+
+\newpage
+\newpage
+
+\section*{Вывод}
+
+В ходе выполнения лабораторной работы были произведены исследования динамика колебательного движения на примере крутильного маятника. 
+Были получены значения, основываясь на которых, были рассчитаны периоды колебаний маятника, 
+время затухания маятника, собственные частоты его колебаний, коэффициент кручения, 
+модуль сдвига материала подвеса, полная энергия, мощность потерь, модуль Юнга и добротность маятника. 
+Исходя из полученных значений, можно сделать вывод, что значения, полученные экспериментально достаточно точны, то есть, эксперимент можно считать успешным.
 
 
 \newpage
