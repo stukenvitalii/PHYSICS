@@ -1,0 +1,355 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{sidecap}
+\usepackage{wrapfig}
+
+
+\begin{document} 
+
+\begin{titlepage} 
+
+\begin{center} 
+
+\large Федеральное государственное автономное образовательное учреждение высшего образования «Санкт-Петербургский государственный электротехнический университет «ЛЭТИ» им. В.И. Ульянова (Ленина)»
+	
+кафедра физики\\[5cm] 
+
+
+\huge ОТЧЕТ\\ по лабораторной работе № 5\\[0.5cm] 
+\large <<ИССЛЕДОВАНИЕ
+ЭЛЕКТРОСТАТИЧЕСКОГО ПОЛЯ ДВУХПРОВОДНОЙ ЛИНИИ
+МЕТОДОМ МОДЕЛИРОВАНИЯ
+>>\\[3.7cm]
+
+\begin{minipage}{1\textwidth} 
+    \begin{flushleft} 
+        \emph{Автор:} Стукен В.А.\\
+        \emph{Группа:} 2307\\
+        \emph{Факультет:} ФКТИ\\
+        \emph{Преподаватель:} Чурганова С.С. 
+    \end{flushleft} 
+\end{minipage} 
+
+\vfill 
+
+Санкт-Петербург, 2023\\
+{\large \LaTeX} 
+
+\end{center} 
+
+\thispagestyle{empty} 
+\end{titlepage} 
+
+\section*{Рассчитаем экспериментальные значения напряженности поля в точках, расположенных вдоль линии, соединяющей электроды.}
+
+\[ E = \frac{\varphi}{r} = \frac{\varphi}{\sqrt{x^2+y^2}} \]
+\[ E_1 = \frac{\varphi_1}{\sqrt{x_1^2+y_1^2}} = 32,31 \, \frac{V}{m} \]
+\[ E_2 = \frac{\varphi_2}{\sqrt{x_2^2+y_2^2}} = 29,76 \, \frac{V}{m} \]
+\[ E_3 = \frac{\varphi_3}{\sqrt{x_3^2+y_3^2}} = 27,95 \, \frac{V}{m} \]
+\[ E_4 = \frac{\varphi_4}{\sqrt{x_4^2+y_4^2}} = 26,09 \, \frac{V}{m} \]
+\[ E_5 = \frac{\varphi_5}{\sqrt{x_5^2+y_5^2}} = 23,89 \, \frac{V}{m} \]
+\[ E_6 = \frac{\varphi_6}{\sqrt{x_6^2+y_6^2}} = 20,80 \, \frac{V}{m} \]
+\[ E_7 = \frac{\varphi_7}{\sqrt{x_7^2+y_7^2}} = 15,59 \, \frac{V}{m} \]
+\[ E_8 = \frac{\varphi_8}{\sqrt{x_8^2+y_8^2}} = 6,02 \, \frac{V}{m} \]
+\[ E_9 = \frac{\varphi_9}{\sqrt{x_9^2+y_9^2}} = 3,43 \, \frac{V}{m} \]
+\[ E_{10} = \frac{\varphi_{10}}{\sqrt{x_{10}^2+y_{10}^2}} = 36,84 \, \frac{V}{m} \]
+
+\newpage
+Точки вне электродов:
+
+\[ E_{11} = \frac{\varphi_{11}}{\sqrt{x_1^2+y_1^2}} = 16,05 \, \frac{V}{m} \]
+\[ E_{12} = \frac{\varphi_{12}}{\sqrt{x_2^2+y_2^2}} = 15,96 \, \frac{V}{m} \]
+\[ E_{13} = \frac{\varphi_{13}}{\sqrt{x_3^2+y_3^2}} = 15,09 \, \frac{V}{m} \]
+\[ E_{14} = \frac{\varphi_{14}}{\sqrt{x_4^2+y_4^2}} = 14,04 \, \frac{V}{m} \]
+\[ E_{15} = \frac{\varphi_{15}}{\sqrt{x_5^2+y_5^2}} = 12,28 \, \frac{V}{m} \]
+\[ E_{16} = \frac{\varphi_{16}}{\sqrt{x_6^2+y_6^2}} = 24,81 \, \frac{V}{m} \]
+\[ E_{17} = \frac{\varphi_{17}}{\sqrt{x_7^2+y_7^2}} = 24,89 \, \frac{V}{m} \]
+\[ E_{18} = \frac{\varphi_{18}}{\sqrt{x_8^2+y_8^2}} = 26,55 \, \frac{V}{m} \]
+\[ E_{19} = \frac{\varphi_{19}}{\sqrt{x_9^2+y_9^2}} = 27,21 \, \frac{V}{m} \]
+\[ E_{20} = \frac{\varphi_{20}}{\sqrt{x_{10}^2+y_{10}^2}} = 27,77 \, \frac{V}{m} \]
+
+\newpage
+\section*{Считая $\varepsilon = 1$, определим по значению напряженности в одной из точек на линии между электродами моделируемый заряд(линейную плотность)}
+В качестве точки возьмем точку с координатами (13,2;14). \\Для нее: $E = 15,59 \, \frac{V}{m}, r = 0,19\, m$
+Тогда линейная плотность заряда равна:
+\[ \tau = 2\pi\varepsilon\varepsilon_0Er\]
+Получаем следующую формулу для расчета E:
+\[ E_i = \frac{\tau}{2\pi\varepsilon_0r_i} = 2,96\cdot \frac{1}{r_i} \]
+\[ E_1 =  2,96\cdot \frac{1}{r_1} = 9,96 \, \frac{V}{m}\]
+\[ E_2 =  2,96\cdot \frac{1}{r_2} = 10,72\, \frac{V}{m}\]
+\[ E_3 =  2,96\cdot \frac{1}{r_3} = 11,65\, \frac{V}{m}\]
+\[ E_4 =  2,96\cdot \frac{1}{r_4} = 12,45\, \frac{V}{m}\]
+\[ E_5 =  2,96\cdot \frac{1}{r_5} = 13,34\, \frac{V}{m}\]
+\[ E_6 =  2,96\cdot \frac{1}{r_6} = 14,32\, \frac{V}{m}\]
+\[ E_7 =  2,96\cdot \frac{1}{r_7} = 15,38\, \frac{V}{m}\]
+\[ E_8 =  2,96\cdot \frac{1}{r_8} = 16,5\, \frac{V}{m}\]
+\[ E_9 =  2,96\cdot \frac{1}{r_9} = 16,63\, \frac{V}{m}\]
+\[ E_{10} =  2,96\cdot \frac{1}{r_{10}} = 9,32\, \frac{V}{m}\]
+
+\newpage
+Вне электродов:
+\[ E_{11} =  2,96\cdot \frac{1}{r_{11}} = 21,12\, \frac{V}{m}\]
+\[ E_{12} =  2,96\cdot \frac{1}{r_{12}} = 21,06\, \frac{V}{m}\]
+\[ E_{13} =  2,96\cdot \frac{1}{r_{13}} = 20,78\, \frac{V}{m}\]
+\[ E_{14} =  2,96\cdot \frac{1}{r_{14}} = 20,48\, \frac{V}{m}\]
+\[ E_{15} =  2,96\cdot \frac{1}{r_{15}} = 20,08\, \frac{V}{m}\]
+\[ E_{16} =  2,96\cdot \frac{1}{r_{16}} = 7,06\, \frac{V}{m}\]
+\[ E_{17} =  2,96\cdot \frac{1}{r_{17}} = 7,22\, \frac{V}{m}\]
+\[ E_{18} =  2,96\cdot \frac{1}{r_{18}} = 7,39\, \frac{V}{m}\]
+\[ E_{19} =  2,96\cdot \frac{1}{r_{19}} = 7,57\, \frac{V}{m}\]
+\[ E_{20} =  2,96\cdot \frac{1}{r_{20}} = 7,76\, \frac{V}{m}\]
+
+
+\section*{Определим экспериментальные значения проекций на оси координат и модули напряженности поля в точках, не лежащих на прямой, соединяющей электроды}
+
+\[ E = \frac{\varphi}{r} = \frac{\varphi}{\sqrt{x^2+y^2}} \]
+\[ E_{21} = \frac{\varphi_{21}}{\sqrt{x_{21}^2+y_{21}^2}} = 24,08 \, \frac{V}{m} \]
+\[ E_{22} = \frac{\varphi_{22}}{\sqrt{x_{22}^2+y_{22}^2}} = 24,04 \, \frac{V}{m} \]
+\[ E_{23} = \frac{\varphi_{23}}{\sqrt{x_{23}^2+y_{23}^2}} = 24,59 \, \frac{V}{m} \]
+\[ E_{24} = \frac{\varphi_{24}}{\sqrt{x_{24}^2+y_{24}^2}} = 24,13 \, \frac{V}{m} \]
+\[ E_{25} = \frac{\varphi_{25}}{\sqrt{x_{25}^2+y_{25}^2}} = 24,83 \, \frac{V}{m} \]
+\[ E_{26} = \frac{\varphi_{26}}{\sqrt{x_{26}^2+y_{26}^2}} = 31,24 \, \frac{V}{m} \]
+\[ E_{27} = \frac{\varphi_{27}}{\sqrt{x_{27}^2+y_{27}^2}} = 30,56 \, \frac{V}{m} \]
+\[ E_{28} = \frac{\varphi_{28}}{\sqrt{x_{28}^2+y_{28}^2}} = 31,16 \, \frac{V}{m} \]
+\[ E_{29} = \frac{\varphi_{29}}{\sqrt{x_{29}^2+y_{29}^2}} = 29,76 \, \frac{V}{m} \]
+\[ E_{30} = \frac{\varphi_{30}}{\sqrt{x_{30}^2+y_{30}^2}} = 31,80 \, \frac{V}{m} \]
+\[ E_{31} = \frac{\varphi_{31}}{\sqrt{x_{31}^2+y_{31}^2}} = 12,44 \, \frac{V}{m} \]
+\[ E_{32} = \frac{\varphi_{32}}{\sqrt{x_{32}^2+y_{32}^2}} = 12,48 \, \frac{V}{m} \]
+\[ E_{33} = \frac{\varphi_{33}}{\sqrt{x_{33}^2+y_{33}^2}} = 12,63 \, \frac{V}{m} \]
+\[ E_{34} = \frac{\varphi_{34}}{\sqrt{x_{34}^2+y_{34}^2}} = 12,53 \, \frac{V}{m} \]
+\[ E_{35} = \frac{\varphi_{35}}{\sqrt{x_{35}^2+y_{35}^2}} = 12,44 \, \frac{V}{m} \]
+\[ E_{36} = \frac{\varphi_{36}}{\sqrt{x_{36}^2+y_{36}^2}} = 34,98 \, \frac{V}{m} \]
+\[ E_{37} = \frac{\varphi_{37}}{\sqrt{x_{37}^2+y_{37}^2}} = 34,36 \, \frac{V}{m} \]
+\[ E_{38} = \frac{\varphi_{38}}{\sqrt{x_{38}^2+y_{38}^2}} = 36,29 \, \frac{V}{m} \]
+\[ E_{39} = \frac{\varphi_{39}}{\sqrt{x_{39}^2+y_{39}^2}} = 32,59\, \frac{V}{m} \]
+\[ E_{40} = \frac{\varphi_{40}}{\sqrt{x_{40}^2+y_{40}^2}} = 38,39 \, \frac{V}{m} \]
+
+Определим значения проекций:
+\[ E_x = \varphi_x' = -\frac{q}{8\pi\varepsilon_0}(x^2+y^2)^{-\frac{3}{2}}\cdot 2x \]
+\[ E_y = \varphi_x' = -\frac{q}{8\pi\varepsilon_0}(x^2+y^2)^{-\frac{3}{2}}\cdot 2y \]
+\[ q = \varphi\cdot r \cdot 4\pi \varepsilon_0 = \varphi \sqrt{x^2+y^2}\cdot 4\pi \varepsilon_0 \]
+Тогда:
+\[ E_x = \frac{\varphi\cdot x}{x^2+y^2} \]
+\[ E_y = \frac{\varphi\cdot y}{x^2+y^2} \]
+
+Рассчитаем проекции на ось X:
+\[ E_{21x} = \frac{\varphi_{21}\cdot x}{x_{21}^2+y_{21}^2} = 17,78 \, \frac{V}{m} \]
+\[ E_{22x} = \frac{\varphi_{22}\cdot x}{x_{22}^2+y_{22}^2} = 17,57 \, \frac{V}{m} \]
+\[ E_{23x} = \frac{\varphi_{23}\cdot x}{x_{23}^2+y_{23}^2} = 18,33 \, \frac{V}{m} \]
+\[ E_{24x} = \frac{\varphi_{24}\cdot x}{x_{24}^2+y_{24}^2} = 17,63 \, \frac{V}{m} \]
+\[ E_{25x} = \frac{\varphi_{25}\cdot x}{x_{25}^2+y_{25}^2} = 18,53 \, \frac{V}{m} \]
+\[ E_{21x} = \frac{\varphi_{21}\cdot x}{x_{21}^2+y_{21}^2} = 29,88 \, \frac{V}{m} \]
+\[ E_{26x} = \frac{\varphi_{26}\cdot x}{x_{26}^2+y_{26}^2} = 29,17 \, \frac{V}{m} \]
+\[ E_{27x} = \frac{\varphi_{27}\cdot x}{x_{27}^2+y_{27}^2} = 29,86 \, \frac{V}{m} \]
+\[ E_{28x} = \frac{\varphi_{28}\cdot x}{x_{28}^2+y_{28}^2} = 28,29 \, \frac{V}{m} \]
+\[ E_{29x} = \frac{\varphi_{29}\cdot x}{x_{29}^2+y_{29}^2} = 30,59 \, \frac{V}{m} \]
+\[ E_{30x} = \frac{\varphi_{30}\cdot x}{x_{30}^2+y_{30}^2} = 2,32 \, \frac{V}{m} \]
+\[ E_{31x} = \frac{\varphi_{31}\cdot x}{x_{31}^2+y_{31}^2} = 2,61 \, \frac{V}{m} \]
+\[ E_{32x} = \frac{\varphi_{32}\cdot x}{x_{32}^2+y_{32}^2} = 2,07 \, \frac{V}{m} \]
+\[ E_{33x} = \frac{\varphi_{34}\cdot x}{x_{34}^2+y_{34}^2} = 2,29 \, \frac{V}{m} \]
+\[ E_{35x} = \frac{\varphi_{35}\cdot x}{x_{35}^2+y_{35}^2} = 2,38 \, \frac{V}{m} \]
+\[ E_{36x} = \frac{\varphi_{36}\cdot x}{x_{36}^2+y_{36}^2} = 17,35 \, \frac{V}{m} \]
+\[ E_{37x} = \frac{\varphi_{37}\cdot x}{x_{37}^2+y_{37}^2} = 18,58 \, \frac{V}{m} \]
+\[ E_{38x} = \frac{\varphi_{38}\cdot x}{x_{38}^2+y_{38}^2} = 16,22 \, \frac{V}{m} \]
+\[ E_{39x} = \frac{\varphi_{39}\cdot x}{x_{39}^2+y_{39}^2} = 15,33\, \frac{V}{m} \]
+\[ E_{40x} = \frac{\varphi_{40}\cdot x}{x_{40}^2+y_{40}^2} = 20,12 \, \frac{V}{m} \]
+
+Рассчитаем проекции на ось Y:
+\[ E_{21y} = \frac{\varphi_{21}\cdot y}{x_{21}^2+y_{21}^2} = 16,23 \, \frac{V}{m} \]
+\[ E_{22y} = \frac{\varphi_{22}\cdot y}{x_{22}^2+y_{22}^2} = 16,40 \, \frac{V}{m} \]
+\[ E_{23y} = \frac{\varphi_{23}\cdot y}{x_{23}^2+y_{23}^2} = 16,38 \, \frac{V}{m} \]
+\[ E_{24y} = \frac{\varphi_{24}\cdot y}{x_{24}^2+y_{24}^2} = 16,48 \, \frac{V}{m} \]
+\[ E_{25y} = \frac{\varphi_{25}\cdot y}{x_{25}^2+y_{25}^2} = 16,52 \, \frac{V}{m} \]
+\[ E_{21y} = \frac{\varphi_{21}\cdot y}{x_{21}^2+y_{21}^2} = 9,09 \, \frac{V}{m} \]
+\[ E_{26y} = \frac{\varphi_{26}\cdot y}{x_{26}^2+y_{26}^2} = 9,07 \, \frac{V}{m} \]
+\[ E_{27y} = \frac{\varphi_{27}\cdot y}{x_{27}^2+y_{27}^2} = 8,89 \, \frac{V}{m} \]
+\[ E_{28y} = \frac{\varphi_{28}\cdot y}{x_{28}^2+y_{28}^2} = 9,22 \, \frac{V}{m} \]
+\[ E_{29y} = \frac{\varphi_{29}\cdot y}{x_{29}^2+y_{29}^2} = 8,64 \, \frac{V}{m} \]
+\[ E_{30y} = \frac{\varphi_{30}\cdot y}{x_{30}^2+y_{30}^2} = 12,22 \, \frac{V}{m} \]
+\[ E_{31y} = \frac{\varphi_{31}\cdot y}{x_{31}^2+y_{31}^2} = 12,20 \, \frac{V}{m} \]
+\[ E_{32y} = \frac{\varphi_{32}\cdot y}{x_{32}^2+y_{32}^2} = 12,46 \, \frac{V}{m} \]
+\[ E_{33y} = \frac{\varphi_{34}\cdot y}{x_{34}^2+y_{34}^2} = 12,31 \, \frac{V}{m} \]
+\[ E_{35y} = \frac{\varphi_{35}\cdot y}{x_{35}^2+y_{35}^2} = 12,22 \, \frac{V}{m} \]
+\[ E_{36y} = \frac{\varphi_{36}\cdot y}{x_{36}^2+y_{36}^2} = 30,36 \, \frac{V}{m} \]
+\[ E_{37y} = \frac{\varphi_{37}\cdot y}{x_{37}^2+y_{37}^2} = 28,90 \, \frac{V}{m} \]
+\[ E_{38y} = \frac{\varphi_{38}\cdot y}{x_{38}^2+y_{38}^2} = 32,45 \, \frac{V}{m} \]
+\[ E_{39y} = \frac{\varphi_{39}\cdot y}{x_{39}^2+y_{39}^2} = 28,75\, \frac{V}{m} \]
+\[ E_{40y} = \frac{\varphi_{40}\cdot y}{x_{40}^2+y_{40}^2} = 32,69 \, \frac{V}{m} \]
+
+\section*{Рассчитаем для выбранных векторов напряженности погрешности их модулей}
+
+\[ x_1 = 23 \, cm; y_1 = 21 \, cm; \varphi = 7,5 \, V\]
+\[ x_2 = 22,5 \, cm; y_2 = 7 \, cm ; \varphi = 7,2 \, V\]
+\[ x_3 = 3,5 \, cm; y_3 = 21 \, cm; \varphi = 2,69 \, V \]
+\[ x_4 = 4,5 \, cm; y_4 = 7 \, cm; \varphi = 2,86 \, V \]
+\[ x_5 = 4 \, cm; y_5 = 6,5 \, cm; \varphi = 2,93 \, V \]
+\[ x_6 = 23,5 \, cm; y_6 = 21 \, cm; \varphi = 7,75 \, V \]
+
+\[ \bar{E_{\varphi}} = \frac{\partial E}{\partial \varphi}\bigg\vert_{x,y,\varphi} = \frac{1}{sqrt{x^2+y^2}}\]
+\[ \bar{E_{x}} = \frac{\partial E}{\partial x}\bigg\vert_{x,y,\varphi} = -x\sqrt{(x^2+y^2)^3}\]
+\[ \bar{E_{y}} = \frac{\partial E}{\partial y}\bigg\vert_{x,y,\varphi} = -y\sqrt{(x^2+y^2)^3}\]
+
+\[ \bar{E_{\varphi1}} =  3,21\]
+\[ \bar{E_{\varphi2}} =  4,24\]
+\[ \bar{E_{\varphi3}} =  4,69\]
+\[ \bar{E_{\varphi4}} = 12,01\]
+\[ \bar{E_{\varphi5}} = 13,10\]
+\[ \bar{E_{\varphi6}} = 3,17 \]
+
+\[ \bar{E_{x1}} = -6,95\]
+\[ \bar{E_{x2}} = -2,94\]
+\[ \bar{E_{x3}} = -0,33\]
+\[ \bar{E_{x4}} = -0,03\]
+\[ \bar{E_{x5}} = -0,02\]
+\[ \bar{E_{x6}} = -7,35\]
+\newpage
+\[ \bar{E_{y1}} = -6,34\]
+\[ \bar{E_{y2}} = -0,91\]
+\[ \bar{E_{y3}} = -2,02\]
+\[ \bar{E_{y4}} = -0,04\]
+\[ \bar{E_{y5}} = -0,02\]
+\[ \bar{E_{y6}} = -6,57\]
+
+\section*{Вычислим средние квадратичные отклонения:}
+\[ S_{\varphi} = \sqrt{\frac{1}{N-1}\sum_{i=1}^N(\varphi_i-\bar{\varphi})^2} \]
+\[ S_{x} = \sqrt{\frac{1}{N-1}\sum_{i=1}^N(x_i-\bar{x})^2} \]
+\[ S_{y} = \sqrt{\frac{1}{N-1}\sum_{i=1}^N(y_i-\bar{y})^2} \]
+\[ \bar{\varphi} = 5,16 \, V \]
+\[ \bar{x} = 0,13 \, m \]
+\[ \bar{y} = 0,14 \, m \]
+
+\[ S_{x1} = 0 \]
+\[ S_{x2} = 0,0025 \]
+\[ S_{x3} = 0,085 \]
+\[ S_{x4} = 0,094 \]
+\[ S_{x5} = 0,09 \]
+\[ S_{x6} = 0,095 \]
+
+\[ S_{y1} = 0 \]
+\[ S_{y2} = 0,07 \]
+\[ S_{y3} = 0,06 \]
+\[ S_{y4} = 0,07 \]
+\[ S_{y5} = 0,068 \]
+\[ S_{y6} = 0,07 \]
+
+\[ S_{\varphi1} = 0 \]
+\[ S_{\varphi2} = 0,0015 \]
+\[ S_{\varphi3} = 0,02 \]
+\[ S_{\varphi4} = 0,022 \]
+\[ S_{\varphi5} = 0,021 \]
+\[ S_{\varphi6} = 0,023 \]
+
+\[ \Delta{\varphi} = t_{PN}\cdot S_i\]
+\[ \Delta{\varphi}_1 = t_{PN}\cdot S_i = 0\]
+\[ \Delta{\varphi}_2 = t_{PN}\cdot S_i = 0,0042\]
+\[ \Delta{\varphi}_3 = t_{PN}\cdot S_i = 0,056\]
+\[ \Delta{\varphi}_4 = t_{PN}\cdot S_i = 0,0064\]
+\[ \Delta{\varphi}_5 = t_{PN}\cdot S_i = 0,0616\]
+\[ \Delta{\varphi}_6 = t_{PN}\cdot S_i = 0,0644\]
+
+\[ \Delta{\varphi} = t_{PN}\cdot S_i\]
+\[ \Delta{\varphi}_1 = t_{PN}\cdot S_i = 0\]
+\[ \Delta{\varphi}_2 = t_{PN}\cdot S_i = 0,0042\]
+\[ \Delta{\varphi}_3 = t_{PN}\cdot S_i = 0,056\]
+\[ \Delta{\varphi}_4 = t_{PN}\cdot S_i = 0,0064\]
+\[ \Delta{\varphi}_5 = t_{PN}\cdot S_i = 0,0616\]
+\[ \Delta{\varphi}_6 = t_{PN}\cdot S_i = 0,0644\]
+
+\[ \Delta{\varphi} = t_{PN}\cdot S_i\]
+\[ \Delta{\varphi}_1 = t_{PN}\cdot S_i = 0\]
+\[ \Delta{\varphi}_2 = t_{PN}\cdot S_i = 0,0042\]
+\[ \Delta{\varphi}_3 = t_{PN}\cdot S_i = 0,056\]
+\[ \Delta{\varphi}_4 = t_{PN}\cdot S_i = 0,0064\]
+\[ \Delta{\varphi}_5 = t_{PN}\cdot S_i = 0,0616\]
+\[ \Delta{\varphi}_6 = t_{PN}\cdot S_i = 0,0644\]
+
+\[ \Delta E_{\varphi 1} = E'_{\varphi 1}\cdot \Delta{\varphi}_1 = 0\]  
+\[ \Delta E_{\varphi 2} = E'_{\varphi 2}\cdot \Delta{\varphi}_2 = 0,018\]  
+\[ \Delta E_{\varphi 3} = E'_{\varphi 3}\cdot \Delta{\varphi}_3 = 0,263\]  
+\[ \Delta E_{\varphi 4} = E'_{\varphi 4}\cdot \Delta{\varphi}_4 = 0,077\]  
+\[ \Delta E_{\varphi 5} = E'_{\varphi 5}\cdot \Delta{\varphi}_5 = 0,8\]  
+\[ \Delta E_{\varphi 6} = E'_{\varphi 6}\cdot \Delta{\varphi}_6 = 0,2\]
+
+\[ \Delta E_{x 1} = E'_{x 1}\cdot \Delta{x}_1 = -3,12\]  
+\[ \Delta E_{x 2} = E'_{x 2}\cdot \Delta{x}_2 = -1,323\]  
+\[ \Delta E_{x 3} = E'_{x 3}\cdot \Delta{x}_3 = -0,149\]  
+\[ \Delta E_{x 4} = E'_{x 4}\cdot \Delta{x}_4 = -0,009\]  
+\[ \Delta E_{x 5} = E'_{x 5}\cdot \Delta{x}_5 = 0,045\]
+\[ \Delta E_{x 6} = E'_{x 6}\cdot \Delta{x}_6 = -3,3\]  
+
+\[ \Delta E_{y 1} = E'_{y 1}\cdot \Delta{y}_1 = -2,853\]  
+\[ \Delta E_{y 2} = E'_{y 2}\cdot \Delta{y}_2 = -0,4\]  
+\[ \Delta E_{y 3} = E'_{y 3}\cdot \Delta{y}_3 = -0,909\]  
+\[ \Delta E_{y 4} = E'_{y 4}\cdot \Delta{y}_4 = -0,018\]  
+\[ \Delta E_{y 5} = E'_{y 5}\cdot \Delta{y}_5 = -0,014\]  
+\[ \Delta E_{y 6} = E'_{y 6}\cdot \Delta{y}_6 = -2,96\]
+
+\[ \Delta E_i = \sqrt{{{\Delta E_{\varphi i}}}^2 + {{\Delta E_{x i}}}^2 + {{\Delta E_{y i}}}^2} \]
+\[ \Delta E_1 = 4,23\]
+\[ \Delta E_2 = 1,38\]
+\[ \Delta E_3 = 0,958\]
+\[ \Delta E_4 = 0,08\]
+\[ \Delta E_5 = 0,8\]
+\[ \Delta E_6 = 4,43\]
+
+\[ \theta_{\varphi i} = E'_i \cdot \theta_{\varphi} \]
+\[ \theta_{\varphi 1} = E'_i \cdot \theta_{\varphi} = 0\]
+\[ \theta_{\varphi 2} = E'_i \cdot \theta_{\varphi} = 0,00018\]
+\[ \theta_{\varphi 3} = E'_i \cdot \theta_{\varphi} = 0,00263\]
+\[ \theta_{\varphi 4} = E'_i \cdot \theta_{\varphi} = 0,00077\]
+\[ \theta_{\varphi 5} = E'_i \cdot \theta_{\varphi} = 0,008\]
+\[ \theta_{\varphi 6} = E'_i \cdot \theta_{\varphi} = 0,002\]
+
+\[ \theta_{xi} = E'_i \cdot \theta_{x}\]
+\[ \theta_{x1} = E'_i \cdot \theta_{x} = 0,00156\]
+\[ \theta_{x2} = E'_i \cdot \theta_{x} = 0,00061\]
+\[ \theta_{x3} = E'_i \cdot \theta_{x} = 0,00007\]
+\[ \theta_{x4} = E'_i \cdot \theta_{x} = 0,00004\]
+\[ \theta_{x5} = E'_i \cdot \theta_{x} = 0,00002\]
+\[ \theta_{x6} = E'_i \cdot \theta_{x} = 0,00165\]
+
+\[ \theta_{yi} = E'_i \cdot \theta_{y}\]
+\[ \theta_{y1} = E'_i \cdot \theta_{y} = 0,00143\]
+\[ \theta_{y2} = E'_i \cdot \theta_{y} = 0,0002\]
+\[ \theta_{y3} = E'_i \cdot \theta_{y} = 0,0005\]
+\[ \theta_{y4} = E'_i \cdot \theta_{y} = 0,00002\]
+\[ \theta_{y5} = E'_i \cdot \theta_{y} = 0,00007\]
+\[ \theta_{y6} = E'_i \cdot \theta_{y} = 0,0015\]
+
+\[ \theta_i = \theta_{\varphi i} + \theta_{xi} + \theta_{yi} \]
+\[ \theta_1 = \theta_{\varphi 1} + \theta_{x1} + \theta_{y1} = 2,9\cdot 10^{-3} \]
+\[ \theta_2 = \theta_{\varphi 2} + \theta_{x2} + \theta_{y2} = 9,9\cdot 10^{-4}\]
+\[ \theta_3 = \theta_{\varphi 3} + \theta_{x3} + \theta_{y3} = 3,83\cdot 10^{-3}\]
+\[ \theta_4 = \theta_{\varphi 4} + \theta_{x4} + \theta_{y4} = 1,01\cdot 10^{-3}\]
+\[ \theta_5 = \theta_{\varphi 5} + \theta_{x5} + \theta_{y5} = 8,27 \cdot 10^{-3}\]
+\[ \theta_6 = \theta_{\varphi 6} + \theta_{x6} + \theta_{y6} = 5,15 \cdot 10^{-3}\]
+
+\[ \bar{\Delta E_i} = \sqrt{(\Delta E_i)^2 + (\theta_i)^2} \]
+\[ \bar{\Delta E_1} = \sqrt{(\Delta E_1)^2 + (\theta_1)^2} = 4,23 \, \frac{V}{m}\]
+\[ \bar{\Delta E_2} = \sqrt{(\Delta E_2)^2 + (\theta_2)^2} = 1,38\, \frac{V}{m}\]
+\[ \bar{\Delta E_3} = \sqrt{(\Delta E_3)^2 + (\theta_3)^2} = 0,958\, \frac{V}{m}\]
+\[ \bar{\Delta E_4} = \sqrt{(\Delta E_4)^2 + (\theta_4)^2} = 0,008\, \frac{V}{m}\]
+\[ \bar{\Delta E_5} = \sqrt{(\Delta E_5)^2 + (\theta_5)^2} = 0,8\, \frac{V}{m}\]
+\[ \bar{\Delta E_6} = \sqrt{(\Delta E_6)^2 + (\theta_6)^2} = 4,43\, \frac{V}{m}\]
+Получаем окончательные значения модулей напряженностей с учетом погрешности:
+\[ \Delta E_1 = 24,0 \pm 4,2 \, \frac{V}{m}\]
+\[ \Delta E_2 = 30,6 \pm 1,4 \, \frac{V}{m}\]
+\[ \Delta E_3 = 13 \pm 1 \, \frac{V}{m}\]
+\[ \Delta E_4 = 34,36 \pm 0,01 \, \frac{V}{m}\]
+\[ \Delta E_5 = 38,4 \pm 0,8 \, \frac{V}{m}\]
+\[ \Delta E_6 = 24,1 \pm 4,4 \, \frac{V}{m}\]
+\newpage
+\section*{Вывод}
+
+В ходе выполнения лабораторной работы было смоделировано поле двухпроводной линии.
+Была проведена практическая проверка формул для вычисления напряженности. 
+Значения, полученные теоретическим методом и значения, полученные практическим методом, во многих случаях достаточно сильно  различаются, что можно объяснить неточностью измерений, а так же
+не очень качественным оборудованием. 
+
+\end{document}

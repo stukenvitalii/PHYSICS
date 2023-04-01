@@ -1,0 +1,168 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{sidecap}
+\usepackage{wrapfig}
+% \usepackage{pgfplots} 
+% \pgfplotsset{compat = 1.18,width = 15cm}
+
+\begin{document} 
+
+\begin{titlepage} 
+
+\begin{center} 
+
+\large Федеральное государственное автономное образовательное учреждение высшего образования «Санкт-Петербургский государственный электротехнический университет «ЛЭТИ» им. В.И. Ульянова (Ленина)»
+	
+кафедра физики\\[5cm] 
+
+
+\huge ОТЧЕТ\\ по лабораторной работе № 9\\[0.5cm] 
+\large <<ИССЛЕДОВАНИЕ РАЗВЕТВЛЕННЫХ
+ЦЕПЕЙ С ПРИМЕНЕНИЕМ КОМПЕНСАЦИОННОГО МЕТОДА
+ИЗМЕРЕНИЙ 
+>>\\[3.7cm]
+
+\begin{minipage}{1\textwidth} 
+    \begin{flushleft} 
+        \emph{Автор:} Стукен В.А.\\
+        \emph{Группа:} 2307\\
+        \emph{Факультет:} ФКТИ\\
+        \emph{Преподаватель:} Харитонский П.В. 
+    \end{flushleft} 
+\end{minipage} 
+
+\vfill 
+
+Санкт-Петербург, 2022\\
+{\large \LaTeX} 
+
+\end{center} 
+
+\thispagestyle{empty} 
+\end{titlepage} 
+
+
+\newpage
+\section*{Ответы на вопросы}
+
+\begin{itemize}
+    \item \textbf{Вопрос №24:}
+    	\textit{"Что такое шунт? Для чего его применяют?"} \\
+        Шунт - это дополнительное сопротивление, которое подключается последовательно вольтметру или параллельно амперметру, чтобы изменить величину тока, протекающего через измерительный прибор.
+    \item \textbf{Вопрос №36:}
+        \textit{"Сформулируйте первое правило Кирхгофа. Сколько независимых уравнений можно написать, используя это правило?"}
+        Алгебраическая сумма токов ветвей , сходящихся в каждом узле любой цепи равна 0, т.е
+         $\sum_{i = 1}^{N} I_i = 0$.
+        \\ Соответственно, можно написать столько независимых уравнений для цепи, сколько в ней узлов.
+        
+\end{itemize}
+
+\newpage
+
+\section*{Протокол измерений}
+
+\begin{flushleft}
+    
+\resizebox{15cm}{!}{ 
+    \begin{tabular}{|l|l|l|l|l|l|l|}
+        \hline
+           & & 1 & 2 & 3 & 4 & 5 \\
+        \hline
+           $G_2$    &  $n_0$   &          &         &     &        &        \\ 
+        \hline
+            $G_1$&   $n_x$  &          &         &     &        &        \\ 
+        \hline
+            $G_1,R$ &  $n_x$   &          &         &     &        &      \\  
+        \hline
+    \end{tabular}
+}
+\end{flushleft}
+
+$E_0$ = 1.275 V; $R_2$ = 3 кОм $n_{max}$ = 10
+
+
+\newpage
+\section*{Обработка результатов измерений}
+
+\subsection*{Рассчитаем среднее значение $n_0$}
+
+\[ \bar{n_0} = \frac{\sum n_{0i}}{N} = 1.22 \]
+\[S_{n_0}=\sqrt{\frac{(\bar{n_0}-{n_0}_1)^2+(\bar{n_0}-{n_0}_2)^2+(\bar{n_0}-{n_0}_3)^2+(\bar{n_0}-{n_0}_4)^2+(\bar{n_0}-{n_0}_5)^2}{N-1}} = 0.016\]
+\[\bar{S_{n_0}}=\frac{S_{n_0}}{\sqrt{N}}=\frac{0.016}{\sqrt{5}}=0.007\]
+\[ \Delta{n_0}_{(\bar{S_{n_0}})}=\bar{S_{n0}}\cdot t_{PN}=0.007\cdot 2.8=0.02 \]
+\[ \Delta{\bar{n_0}}=\sqrt{\Delta n_0^2 + \theta^2}=\sqrt{0.02^2 + 0.0005^2}=0.02 \]
+\[{n_0}=\bar{n_0}\pm \Delta{\bar{n_0}}=1.22\pm 0.02\]
+
+\subsection*{Рассчитаем среднее значение $n_x$}
+
+\[ \bar{n_x} = \frac{\sum n_{xi}}{N} = 2.316 \]
+\[S_{n_x}=\sqrt{\frac{(\bar{n_x}-{n_x}_1)^2+(\bar{n_x}-{n_x}_2)^2+(\bar{n_x}-{n_x}_3)^2+(\bar{n_x}-{n_x}_4)^2+(\bar{n_x}-{n_x}_5)^2}{N-1}} = 0.009\]
+\[\bar{S_{n_x}}=\frac{S_{n_x}}{\sqrt{N}}=\frac{0.009}{\sqrt{5}}=0.004\]
+\[ \Delta{n_x}_{(\bar{S_{n_x}})}=\bar{S_{nx}}\cdot t_{PN}=0.004\cdot 2.8 = 0.011 \]
+\[ \Delta{\bar{n_x}}=\sqrt{\Delta n_x^2 + \theta^2}=\sqrt{0.011^2 + 0.0005^2}=0.011 \]
+\[{n_x}=\bar{n_x}\pm \Delta{\bar{n_x}}=2.316\pm 0.011\]
+
+\subsection*{Рассчитаем среднее значение $n_{x'}$}
+
+\[ \bar{n_{x'}} = \frac{\sum n_{x'}}{N} = 2.328 \]
+\[S_{n_{x'}}=\sqrt{\frac{(\bar{n_{x'}}-{n_{x'}}_1)^2+(\bar{n_{x'}}-{n_{x'}}_2)^2+(\bar{n_{x'}}-{n_{x'}}_3)^2+(\bar{n_{x'}}-{n_{x'}}_4)^2+(\bar{n_{x'}}-{n_{x'}}_5)^2}{N-1}} = 0.008\]
+\[\bar{S_{n_{x'}}}=\frac{S_{n_{x'}}}{\sqrt{N}}=\frac{0.008}{\sqrt{5}}=0.004\]
+\[ \Delta{n_{x'}}_{(\bar{S_{n_{x'}}})}=\bar{S_{n_{x'}}}\cdot t_{PN}=0.004\cdot 2.8=0.011 \]
+\[ \Delta{\bar{n_{x'}}}=\sqrt{\Delta n_{x'}^2 + \theta^2}=\sqrt{0.011^2 + 0.0005^2}=0.011 \]
+\[{n_{x'}}=\bar{n_{x'}}\pm \Delta{\bar{n_{x'}}}=2.328\pm 0.011\]
+
+\subsection*{Рассчитаем среднее значение $\varepsilon_x$}
+
+\[ \bar{\varepsilon_x} = \bar{\varepsilon_0} \frac{\bar{n_x}}{\bar{n_0}} = 2.42 \, V\]
+\[ a_{n_0} = \frac{\partial \varepsilon_x}{\partial n_0} = -\frac{\varepsilon_0 \cdot n_x}{n_0^2}\]
+\[ a_{n_x} = \frac{\partial \varepsilon_x}{\partial n_x} = \frac{\varepsilon_0}{n_0}\]
+\[ \bar{a_{n_0}} = -1.98 \]
+\[ \bar{a_{n_x}} = 1.04 \]
+
+\[ \bar{\delta \varepsilon_x} = \sqrt{(\bar{a_{n_0}} \cdot \Delta{\bar{n_0}})^2+(\bar{a_{n_x}} \cdot \Delta{\bar{n_x}})^2} = 0.04\]
+\[ \varepsilon_x=\bar{\varepsilon_x}\pm \Delta{\bar{\varepsilon_x}}= 2.42\pm 0.04 \, V \]
+
+\subsection*{Рассчитаем среднее значение $\varepsilon_{x'}$}
+
+\[ \bar{\varepsilon_{x'}} = \bar{\varepsilon_0} \frac{\bar{n_{x'}}}{\bar{n_0}} = 2.43 \, V\]
+\[ a_{n_0} = \frac{\partial \varepsilon_{x'}}{\partial n_0} = -\frac{\varepsilon_0 \cdot n_{x'}}{n_0^2}\]
+\[ a_{n_{x'}} = \frac{\partial \varepsilon_{x'}}{\partial n_{x'}} = \frac{\varepsilon_0}{n_0}\]
+\[ \bar{a_{n_0}} = -2 \]
+\[ \bar{a_{n_{x'}}} = 1.05 \]
+
+\[ \bar{\delta \varepsilon_{x'}} = \sqrt{(\bar{a_{n_0}} \cdot \Delta{\bar{n_0}})^2+(\bar{a_{n_{x'}}} \cdot \Delta{\bar{n_x}})^2} = 0.04\]
+\[ \varepsilon_{x'}=\bar{\varepsilon_{x'}}\pm \Delta{\bar{\varepsilon_{x'}}}= 2.43\pm 0.04 \, V \]
+ 
+\subsection*{Рассчитаем значение $\varepsilon_{max}$}
+
+\[ \varepsilon_{max} = \varepsilon_0 \frac{n_{max}}{n_0} = 10.45 \, V \]
+
+\subsection*{Найдем внутреннее сопротивление микроамперметра $r_0$, полагая, что $r_1 = r_3 = 0$}
+
+\begin{equation*}
+    \begin{cases}
+      I_2 - I_3 - I_1 = 0, 
+      \\
+      I_1(r_1 + r_0) + I_2R_x = \varepsilon_x,
+      \\
+      I_3r_3 + I_3(R_2-R_x) + I_2R_x = \varepsilon_3.
+    \end{cases}
+   \end{equation*}
+
+\[ r_0 = \frac{\varepsilon_x - I_2R_x}{I_1} \]
+\[r_0 = \frac{\varepsilon_x - \varepsilon_3 + I_3(R_2-R_x)}{I_1}\]
+\[ \frac{R_x}{R_2} = \frac{n'}{n_{max}} \]
+\[ R_x = 2660 \, \Omega  \]
+\[ r_0 = 15\cdot 10^{3} \Omega \]
+
+\section*{Вывод}
+
+В ходе лабораторной работы ознакомились с компенсационным методом измерения на примере ЭДС, с помощтю которого вычислили значение ЭДС источника тока, а также применили правила Кирхгофа для расчета разветвленных цепей.
+
+\end{document}
